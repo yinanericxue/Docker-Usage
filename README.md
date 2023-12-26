@@ -31,3 +31,27 @@
 ![image](https://github.com/yinanericxue/Docker-Usage/assets/102645083/c113f327-94b5-46c8-8a3d-d749f728e4f9)
 
 ![image](https://github.com/yinanericxue/Docker-Usage/assets/102645083/f7b96884-b89a-4b6f-8719-c9c05ea23fd5)
+
+
+
+
+
+####  Docker Use Case 2
+
+#### NGINX
+#### https://www.papertrail.com/solution/guides/nginx/
+![image](https://github.com/yinanericxue/Docker-Usage/assets/102645083/9e1b728d-e07f-429d-bf51-f3e64366f277)
+
+
+#### Create a Web Server by using NGINX
+#### https://docs.docker.com/engine/reference/commandline/run/
+#### https://www.baeldung.com/linux/nginx-docker-container
+
+#### docker pull nginx
+#### docker pull nginx:latest
+#### docker pull nginx:1.24.0 # if selecting specific version
+
+#### docker image ls
+
+#### docker run -d -p 8000:80 nginx  # it's converting from 8000 (host port number) to 80 (container port number)
+
